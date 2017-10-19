@@ -1,0 +1,37 @@
+{
+  "name": "dom-reducer",
+  "version": "1.0.0",
+  "description": "Reduce for DOM crawling. Can work as visitor pattern.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "DOM",
+    "reduce",
+    "reducer",
+    "crawler",
+    "visitor",
+    "pattern",
+    "tag",
+    "html",
+    "document",
+    "fakedom"
+  ],
+  "author": "stormcrows",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stormcrows/dom-reducer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stormcrows/dom-reducer/issues"
+  },
+  "homepage": "https://github.com/stormcrows/dom-reducer#readme",
+  "maintainers": [
+    {
+      "name": "stormcrows",
+      "email": "stormingcrows@gmail.com"
+    }
+  ]
+}
