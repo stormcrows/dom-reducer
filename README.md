@@ -4,6 +4,7 @@ Reduce designed for DOM crawling: it can be used for node info collection.
 Or it can behave like Visitor pattern modifying nodes.
 
   DOMReduce takes 3 arguments:
+
     - startingNode
         ex.: document.body,
 
