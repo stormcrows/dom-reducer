@@ -1,18 +1,25 @@
 # dom-reducer
 
-Reduce designed for DOM crawling: it can be used for node info collection.
-Or it can behave like Visitor pattern modifying nodes.
+Reduce designed for DOM crawling. 
+It can be used for node info collection.
 
-  DOMReduce takes 3 arguments:
+It can behave like Visitor pattern modifying nodes,
+and if you only need that functionality use dom-visitor instead:
 
-    - startingNode
-        ex.: document.body,
+- https://www.npmjs.com/package/dom-visitor
+- https://github.com/stormcrows/dom-visitor
 
-    - reducer, a function called on every node with accumulator,
-        ex.: (accu, node) => accu + (node.tagName === "DIV" ? 1 : 0)
 
-    - initialValue
-        can be anything but it's usually: 0, {}, [], ""
+DOMReduce takes 3 arguments:
+
+  - startingNode
+      ex.: document.body,
+
+  - reducer, a function called on every node with accumulator,
+      ex.: (accu, node) => accu + (node.tagName === "DIV" ? 1 : 0)
+
+  - initialValue
+      can be anything but it's usually: 0, {}, [], ""
 
 
 DOMReduce supports Browser, Node.js & AMD.
@@ -21,7 +28,7 @@ DOMReduce supports Browser, Node.js & AMD.
 
 Refer to index.spec.js for Node.js fakeDOM example
 
-In browser: inject the code unto yours or any page through devtools or script tag,
+In browser: inject DOMReduce code unto a website through devtools or script tag,
 then:
 
 ```javascript
