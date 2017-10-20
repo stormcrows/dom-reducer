@@ -12,14 +12,15 @@ and if you only need that functionality use dom-visitor instead:
 
 DOMReduce takes 3 arguments:
 
-  - startingNode
-      ex.: document.body,
+- startingNode
+    ex.: document.body,
 
-  - reducer, a function called on every node with accumulator,
-      ex.: (accu, node) => accu + (node.tagName === "DIV" ? 1 : 0)
+- reducer, a function called on every node with accumulator, ex.:
+    (accu, node) => accu + (node.tagName === "DIV" ? 1 : 0)
 
-  - initialValue
-      can be anything but it's usually: 0, {}, [], ""
+- initialValue
+    can be anything but it's usually: 0, {}, [], ""
+
 
 
 DOMReduce supports Browser, Node.js & AMD.
