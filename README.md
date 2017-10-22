@@ -4,7 +4,7 @@
 
 Reduce designed for DOM crawling. 
 It can be used for node info collection.
-
+ 
 It can behave like Visitor pattern modifying nodes,
 and if you only need that functionality use dom-visitor instead:
 
