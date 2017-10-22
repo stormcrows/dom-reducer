@@ -1,11 +1,11 @@
 {
   "name": "dom-reducer",
-  "version": "1.0.4",
-  "description":
-    "DOM crawler, executing given reducer recursively beginning with provided node.",
+  "version": "1.0.5",
+  "description": "DOM crawler, executing given reducer recursively beginning with provided node.",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "ci": "jest --ci --testResultsProcessor='./node_modules/jest-junit-reporter'"
   },
   "keywords": [
     "DOM",
@@ -35,5 +35,9 @@
       "name": "stormcrows",
       "email": "stormingcrows@gmail.com"
     }
-  ]
+  ],
+  "devDependencies": {
+    "jest": "^21.2.1",
+    "jest-junit-reporter": "^1.1.0"
+  }
 }

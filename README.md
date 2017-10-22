@@ -1,5 +1,7 @@
 # dom-reducer
 
+[![CircleCI](https://circleci.com/gh/stormcrows/dom-reducer/tree/master.svg?style=svg)](https://circleci.com/gh/stormcrows/dom-reducer/tree/master)
+
 Reduce designed for DOM crawling. 
 It can be used for node info collection.
 
