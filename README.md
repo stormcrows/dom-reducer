@@ -6,7 +6,7 @@ Reduce designed for DOM crawling.
 It can be used for node info collection.
  
 It can behave like Visitor pattern modifying nodes,
-and if you only need that functionality use dom-visitor instead:
+and if you only need that functionality or breadth-first traversal, then use dom-visitor instead:
 
 - https://www.npmjs.com/package/dom-visitor
 - https://github.com/stormcrows/dom-visitor
