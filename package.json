@@ -1,6 +1,6 @@
 {
   "name": "dom-reducer",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "DOM crawler, executing given reducer recursively beginning with provided node.",
   "main": "index.js",
   "scripts": {
